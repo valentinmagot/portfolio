@@ -11,7 +11,7 @@ import {about, socialMedia} from '../constants'
 
 const About = () => {
   return (
-    <section id='about' className={`flex flex-col sm:pt-16 pt-6`}>
+    <section id='about' className={`flex flex-col sm:pt-16 pt-6 w-full`}>
       <div className={`flex-1 ${styles.flexStart} flex-col md:flex-row xl:px-0 sm:px-16 px-6 w-full`}>
         <div className='w-full flex flex-col justify-between items-left py-[6px] py-4 mb-2'>
           <h4 className='font-comfortaa text-[18px] ss:text-[48px] font-bold text-dark'>{about.title}</h4>
@@ -30,7 +30,7 @@ const About = () => {
         </div>
         <p>&copy; MIT - Valentin Magot 2022</p>
       </div>
-      <img className="relative bottom-0 flex self-center flex-1  w-full" src={vector} alt='footer' />
+      {/* <img className="relative bottom-0 flex self-center flex-1  w-full" src={vector} alt='footer' /> */}
     </section>
   )
 }
