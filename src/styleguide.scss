@@ -1,0 +1,43 @@
+// This is the project stylesheet
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito:wght@400;700&family=Raleway:wght@500&family=Roboto:wght@500;700&display=swap');
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --bg--line: rgba(37, 48, 43, 1);
+    --font--mdeium-emphasis: rgba(138, 138, 138, 1);
+    --bg-gray: rgba(249, 250, 255, 1);
+    --brandorange: rgba(253, 149, 25, 1);
+    --bg--white: rgba(255, 255, 255, 1);
+
+    --font-size-s: 16px;
+    --font-size-m: 18px;
+    --font-size-l: 20px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 40px;
+    --font-size-xxxl: 48px;
+    --font-size-xxxxl: 64px;
+
+    --font-family-comfortaa: "Comfortaa", cursive;
+    --font-family-nunito: "Nunito", sans-serif;
+    --font-family-raleway: "Raleway", sans-serif;
+    --font-family-roboto: "Roboto", sans-serif;
+}
+
+// Colors
+$black-primary: rgba(37, 40, 43, 1);
+$brandorange: rgba(253, 149, 25, 1);
+
+// Typographies
+@mixin body-18px {
+  font-family: var(--font-family-raleway);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+@mixin body-24px {
+    font-family: var(--font-family-nunito);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+  }
