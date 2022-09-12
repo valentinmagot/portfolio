@@ -76,7 +76,7 @@ export const experience = [
 
 export const about = {
         title:'About me',
-        description:'To hone my software engineering skills I enjoy participating to capture the flag (CTF) contest and would very much enjoy to learn more about cybersecurity. As well as completing software or robotics projects using microcontrollers.',
+        description:'To hone my software engineering skills I enjoy participating to capture the flag (CTF) contest and would very much enjoy to learn more about cybersecurity. I am also a Fitness enthusiast and love riding my motorcycle on my free time.',
 };
 
 export const socialMedia = [
