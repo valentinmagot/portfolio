@@ -25,7 +25,7 @@ const About = () => {
       <div className='flex flex-col py-4 justify-between items-center mt-4 sm:mt-20'>
         <div className='flex flex-row justify-between items-center'>
          {socialMedia.map((media) => (
-          <a key={media.id} href={media.link} target="_blank"><img src={media.icon}/></a>
+          <a key={media.id} href={media.link} target="_blank"><img src={media.icon} alt={media.id}/></a>
          ))}
         </div>
         <p>&copy; MIT - Valentin Magot 2022</p>

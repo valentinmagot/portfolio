@@ -17,7 +17,7 @@ export const navLinks = [
 ];
 
 export const landing = {
-        occupation:'SOFTWARE ENGENEER',
+        occupation:'SOFTWARE ENGINEER',
         title:'Hello, I am ',
         name: 'Valentin Magot',
         description:'I am a software engineer based in Ottawa, Canada. I gratuated from the University of Ottawa in 2021 and currently working as a Salesforce SysAdmin for Shared Services Canada (SSC).',

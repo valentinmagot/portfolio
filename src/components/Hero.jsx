@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className='flex flex-col justify-between items-left w-full'>
           <h1 className='flex-1 font-roboto font-bold ss:text-[64px] text-[24px] text-highEmphasis'>{landing.title}<br /> {landing.name}</h1>
-          <p className={`${styles.paragraph} mt-8 max-w-[486px] opacity-40`}>
+          <p className={`${styles.paragraph} mt-8 max-w-[486px] opacity-60`}>
           {landing.description}
           </p>
           <div className='flex flex-1 flex-row mt-8 font-roboto ss:text-[18px] text-[14px] text-bold jsutify-between items-left gap-3 w-full'>
