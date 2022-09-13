@@ -1,4 +1,18 @@
-import { fitgive, cucpup, uzer, cbs, ca, github, mail, linkedin  } from '../assets';
+import { 
+  fitgive,
+  cucpup,
+  uzer,
+  cbs,
+  ca,
+  github,
+  mail,
+  linkedin,
+  salesforce,
+  react,
+  node,
+  database,
+  figma
+} from '../assets';
 
 export const navLinks = [
   {
@@ -94,6 +108,29 @@ export const socialMedia = [
     id: "linkedin",
     icon: linkedin,
     link: "https://www.linkedin.com/in/valentin-magot-146506128/",
+  },
+];
+
+export const tech = [
+  {
+    id: "salesforce",
+    icon: salesforce
+  },
+  {
+    id: "react",
+    icon: react
+  },
+  {
+    id: "node",
+    icon: node
+  },
+  {
+    id: "database",
+    icon: database
+  },
+  {
+    id: "figma",
+    icon: figma
   },
 ];
 

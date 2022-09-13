@@ -10,7 +10,7 @@ import { me_removebg, yellow_bg } from '../assets'
 import resume from '../assets/cv.pdf'
 
 //import constant
-import { landing } from '../constants'
+import { landing, tech } from '../constants'
 
 const Hero = () => {
   return (
@@ -21,9 +21,14 @@ const Hero = () => {
         </div>
         <div className='flex flex-col justify-between items-left w-full'>
           <h1 className='flex-1 font-roboto font-bold ss:text-[64px] text-[24px] text-highEmphasis'>{landing.title}<br /> {landing.name}</h1>
-          <p className={`${styles.paragraph} mt-8 max-w-[486px] opacity-60`}>
+          <p className={`${styles.paragraph} mt-6 max-w-[486px] opacity-60`}>
           {landing.description}
           </p>
+          <div className='flex flex-row justify-between items-center mt-[22px] md:w-1/3 w-full'>
+            {tech.map((media) => (
+              <img src={media.icon} alt={media.id}/>
+            ))}
+          </div>
           <div className='flex flex-1 flex-row mt-8 font-roboto ss:text-[18px] text-[14px] text-bold jsutify-between items-left gap-3 w-full'>
             <a href={resume} target='_blank' ><button className='bg-primary py-[8px] px-[24px] w-fit rounded-lg hover:animate-pulse'>Resume</button></a>
             <a href='https://www.linkedin.com/in/valentin-magot-146506128/' target='_blank'><button className={`${styles.buttonSecondary}`}>LinkedIn</button></a>

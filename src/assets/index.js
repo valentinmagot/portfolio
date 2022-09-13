@@ -8,6 +8,13 @@ import me from './me.png'
 import me_removebg from './me_removebg.png'
 import yellow_bg from './yellow_bg.png'
 
+//Tech
+import salesforce from './salesforce.svg'
+import react from './react.svg'
+import node from './node.svg'
+import database from './database.svg'
+import figma from './figma.svg'
+
 // Projects
 import uzer from './uzer.png'
 import fitgive from './fitgive.png'
@@ -43,6 +50,11 @@ export {
     mail,
     github,
     linkedin,
-    vector
+    vector,
+    salesforce,
+    react,
+    node,
+    database,
+    figma
 }
 
