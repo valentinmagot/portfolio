@@ -28,6 +28,7 @@ import ca from './ca.png'
 import mail from './mail.svg'
 import github from './github.svg'
 import linkedin from './linkedin.svg'
+import trailhead from './trailhead.svg'
 
 //About
 import elipse from './elipse.png'
@@ -55,6 +56,7 @@ export {
     react,
     node,
     database,
-    figma
+    figma,
+    trailhead
 }
 

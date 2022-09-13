@@ -11,7 +11,8 @@ import {
   react,
   node,
   database,
-  figma
+  figma,
+  trailhead
 } from '../assets';
 
 export const navLinks = [
@@ -108,6 +109,11 @@ export const socialMedia = [
     id: "linkedin",
     icon: linkedin,
     link: "https://www.linkedin.com/in/valentin-magot-146506128/",
+  },
+  {
+    id: "trailhead",
+    icon: trailhead,
+    link: "https://trailblazer.me/id/vmagot",
   },
 ];
 
