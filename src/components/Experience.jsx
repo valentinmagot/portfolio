@@ -16,9 +16,10 @@ const Experience = () => {
         <div className='flex flex-row items-center py-[6px] py-4 mb-2 font-comfortaa text text-[18px] ss:text-[48px] font-bold text-highEmphasis'>
             <h3 className='border-primary border-b-4 rounded'>Experience</h3>
         </div>
-        {experience.map((exp) => (
+        {experience.map((exp, index) => (
             <Card 
               key={exp.id}
+              isEven={index % 2 == 0}
               title={exp.title}
               content={exp.content}
               img={exp.img}

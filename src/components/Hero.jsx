@@ -26,7 +26,7 @@ const Hero = () => {
           </p>
           <div className='flex flex-row justify-between items-center mt-[22px] md:w-1/3 w-full'>
             {tech.map((media) => (
-              <img src={media.icon} alt={media.id}/>
+              <img key={media.id} src={media.icon} alt={media.id}/>
             ))}
           </div>
           <div className='flex flex-1 flex-row mt-8 font-roboto ss:text-[18px] text-[14px] text-bold jsutify-between items-left gap-3 w-full'>

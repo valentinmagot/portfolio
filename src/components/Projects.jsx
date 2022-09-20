@@ -16,9 +16,10 @@ const Projects = () => {
         <div className='flex flex-row items-center py-[6px] py-4 mb-2 font-comfortaa text text-[18px] ss:text-[48px] font-bold text-highEmphasis'>
             <h3 className='border-primary border-b-4 rounded'>Projects</h3>
         </div>
-        {projects.map((proj) => (
+        {projects.map((proj, index) => (
             <Card 
               key={proj.id}
+              isEven={index % 2 == 0}
               title={proj.title}
               content={proj.content}
               link={proj.link}
