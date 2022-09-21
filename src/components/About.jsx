@@ -28,7 +28,7 @@ const About = () => {
           <a key={media.id} href={media.link} target="_blank"><img src={media.icon} alt={media.id}/></a>
          ))}
         </div>
-        <p>&copy; MIT - Valentin Magot 2022</p>
+        <p>Copyright &copy; Valentin Magot 2022</p>
       </div>
       {/* <img className="relative bottom-0 flex self-center flex-1  w-full" src={vector} alt='footer' /> */}
     </section>
