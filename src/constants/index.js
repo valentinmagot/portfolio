@@ -15,6 +15,7 @@ import {
   trailhead
 } from '../assets';
 
+
 export const navLinks = [
   {
     id: "projects",
@@ -74,14 +75,14 @@ export const experience = [
         "Working as a Salesforce System Administrator and Developer in order to configure the Cloud Brokering Service, a portal that allows department, ministery or any clients to adopt cloud technologies from cloud provriders suck as Amazon, Microsoft, Ibm and many more. Learn more about my experince in my ",
     },
     {
-      id: "PSPC",
+      id: "pspc",
       img: ca,
       title: "Public Services and Procurement Canada",
       content:
         "Worked on an end to end testing framework called Cucumber-Puppeteer in order to test the Gcdocs mobile project. Assist in the Gcdocs mobile project that allows Gcdocs user to have a mobile version of the software using ActiveView, REST API calls and HTML, CSS, JavaScript. Learn more about my experince in my ",
     },
     {
-      id: "ECCC",
+      id: "eccc",
       img: ca,
       title: "Enviornment And Climate Change Canada",
       content:
