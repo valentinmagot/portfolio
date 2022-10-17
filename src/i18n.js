@@ -69,12 +69,12 @@ i18n
             occupation:'INGÉNIEUR LOGICIEL',
             title:'Bonjour, je suis ',
             name: 'Valentin Magot',
-            description:'Je suis un ingénieur logiciel basé à Ottawa (Canada). J\'ai obtenu mon diplôme de l\'Université d\'Ottawa en 2021 et je travaille actuellement en tant qu\'administrateur système Salesforce pour Services Partagés Canada (SPC).',
+            description:'Je suis ingénieur logiciel basé à Ottawa (Canada), diplômé de l\'Université d\'Ottawa en 2021. Actuellement, Je travaille en qualité d\'Administrateur Système Salesforce pour le gouvernement fédéral (Services Partagés Canada - SPC).',
          },
          projects: {
           title: 'Projets',
-          fitgive: 'Fit Give est une application Web qui encourage les utilisateurs à faire de l\'exercice quotidiennement en défiant leurs amis et en s\'engageant sur une somme d\'argent convenue pour le succès du défi. Le gagnant du défi pourra récupérer sa part de la mise, tandis que le reste de la mise sera reversé à un organisme de bienfaisance sélectionné.',
-          cucpup: 'Contribuer à la construction d\'un modèle (cadriciel) node.js pour tester de bout en bout votre application avec Cucumber.js et Puppeteer. Publié sur NPM avec actuellement environ 250 téléchargements par semaine.',
+          fitgive: 'Fit Give est une application Web qui encourage les utilisateurs à faire de l\'exercice physique quotidiennement en défiant leurs amis et en s\'engageant sur une somme d\'argent mise en jeu et  convenue pour le succès du défi. Le gagnant du défi pourra récupérer sa mise de départ, tandis que le reste de la mise des gains sera reversé à un organisme de bienfaisance sélectionné.',
+          cucpup: 'J\'ai contribué à la construction d\'un modèle (cadriciel) node.js pour tester de bout en bout votre application avec Cucumber.js et Puppeteer. Publié sur NPM et compte actuellement environ 250 téléchargements par semaine.',
           uzer: 'Uzer est une application Web qui permet aux particuliers et aux organisations de partager leur réseau sans fil/de données et de fournir un accès Internet à de nombreux clients générant des revenus supplémentaires.',
          },
          experience: {
@@ -82,9 +82,9 @@ i18n
           cbs_title:'Services Partagés Canada (SPC)',
           pspc_title:'Services Publics et Approvisionnement Canada',
           eccc_title:'Environnement et Changement Climatique Canada',
-          cbs: 'Travail en tant qu\'administrateur système et développeur Salesforce afin de configurer le Service de courtage infonuagique, un portail qui permet aux départements, ministères ou à tout client d\'adopter des technologies infonuagique de fournisseurs de cloud tels qu\'Amazon, Microsoft, IBM et bien d\'autres. Apprenez-en plus sur mon expérience dans mon ',
-          pspc: 'Collaborer sur un cadre de test de bout en bout appelé Cucumber-Puppeteer afin de tester le projet mobile Gcdocs. Participer au projet mobile Gcdocs qui permet aux utilisateurs de Gcdocs d\'avoir une version mobile du logiciel en utilisant ActiveView ainsi que les appels d\'API REST, HTML, CSS et JavaScript. Apprenez-en plus sur mon expérience dans mon ',
-          eccc: 'À ce poste, j\'étais responsable de la conception et de la création d\'une base de données pour aider ECCC à mieux gérer, coordonner et établir des liens avec les questions mises en évidence dans la correspondance avec le CMPER. Le UI de la base de données a été construit avec VBA pour une meilleure experience utilisateur pour les gestionnaires. Apprenez-en plus sur mon expérience dans mon ',
+          cbs: 'Je travail en tant qu\'Administrateur Système et Développeur Salesforce afin de configurer le Service de courtage infonuagique.Il s\'agit d\'un portail qui permet aux départements, ministères ou à tout client d\'adopter des technologies infonuagique de fournisseurs de cloud tels qu\'Amazon, Microsoft, IBM et bien d\'autres. Pour plus de détail sur mes compétences veuillez consulter mon ',
+          pspc: 'J’ai collaboré sur un cadriciel (framework) de test de bout en bout appelé Cucumber-Puppeteer afin de tester le projet mobile Gcdocs. J\'ai participé au projet mobile Gcdocs qui permet aux utilisateurs de Gcdocs d\'avoir une version mobile du logiciel en utilisant ActiveView ainsi que les appels d\'API REST, HTML, CSS et JavaScript. Pour plus de détail sur mes compétences veuillez consulter mon ',
+          eccc: 'À ce poste, j\'étais responsable de la conception et développement d\'une base de données pour aider ECCC à mieux gérer, coordonner et établir des liens avec les questions mises en évidence dans la correspondance avec le CMPER. Le UI de la base de données a été construit avec VBA permettant une meilleure experience utilisateur pour les gestionnaires. Pour plus de détail sur mes compétences veuillez consulter mon ',
          },
          resume: 'CV',
          about: {
