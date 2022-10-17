@@ -18,7 +18,7 @@ const Hero = () => {
   const { t } = useTranslation();
   return (
     <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 md:w-1/2 w-full -z-50`}>
+      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 md:w-1/2 w-full `}>
         <div className='flex flex-row items-center py-[6px] py-4 mb-2 font-raleway text-[14px] ss:text-[20px] font-bold bold text-primary'>
           <h2>{t('landing.occupation')}</h2>
         </div>
