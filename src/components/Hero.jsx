@@ -8,6 +8,7 @@ import { me_removebg, yellow_bg } from '../assets'
 
 // import resume
 import resume from '../assets/cv_Valentin_Magot_2023.pdf'
+import resume_fr from '../assets/cv_Valentin_Magot_2023_FR.pdf'
 
 //import constant
 import { landing, tech } from '../constants'
@@ -15,7 +16,8 @@ import { landing, tech } from '../constants'
 import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isFR = i18n.resolvedLanguage === 'fr';
   return (
     <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 md:w-1/2 w-full `}>
@@ -33,7 +35,8 @@ const Hero = () => {
             ))}
           </div>
           <div className='flex flex-1 flex-row mt-8 font-roboto ss:text-[18px] text-[14px] text-bold jsutify-between items-left gap-3 w-full'>
-            <a href={resume} target='_blank' ><button className='bg-primary py-[8px] px-[24px] w-fit rounded-lg hover:animate-pulse'>{t('button.resume')}</button></a>
+            {!isFR && <a href={resume} target='_blank' ><button className='bg-primary py-[8px] px-[24px] w-fit rounded-lg hover:animate-pulse'>{t('button.resume')}</button></a>}
+            {isFR && <a href={resume_fr} target='_blank' ><button className='bg-primary py-[8px] px-[24px] w-fit rounded-lg hover:animate-pulse'>{t('button.resume')}</button></a>}
             <a href='https://www.linkedin.com/in/valentin-magot-146506128/' target='_blank'><button className={`${styles.buttonSecondary}`}>{t('button.linkedin')}</button></a>
           </div>
         </div>
