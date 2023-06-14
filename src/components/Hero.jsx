@@ -7,7 +7,7 @@ import styles from '../sytles'
 import { me_removebg, yellow_bg } from '../assets'
 
 // import resume
-import resume from '../assets/cv.pdf'
+import resume from '../assets/cv_Valentin_Magot_2023.pdf'
 
 //import constant
 import { landing, tech } from '../constants'

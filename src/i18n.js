@@ -28,7 +28,7 @@ i18n
             occupation:'SOFTWARE ENGINEER',
             title:'Hello, I am ',
             name: 'Valentin Magot',
-            description:'I am a software engineer based in Ottawa, Canada. I gratuated from the University of Ottawa in 2021 and currently working as a Salesforce SysAdmin for Shared Services Canada (SSC).',
+            description:'I am a software engineer based in Ottawa, Canada. I gratuated from the University of Ottawa in 2021 and currently working as a Salesforce Developer and IT Analyst for Shared Services Canada (SSC).',
          },
          projects: {
           title: 'Projects',
@@ -41,13 +41,13 @@ i18n
           cbs_title:'Shared Services Canada (CBS)',
           pspc_title:'Public Services and Procurement Canada',
           eccc_title:'Environnement and Climate Change Canada',
-          cbs: 'Working as a Salesforce System Administrator and Developer in order to configure the Cloud Brokering Service, a portal that allows departments, ministries, or any clients to adopt cloud technologies from cloud providers such as Amazon, Microsoft, IBM, and many more. Learn more about my experience in my ',
+          cbs: 'Working as an IT Analyst and Salesforce Developer in order to configure the Cloud Brokering Service, a portal that allows departments, ministries, or any clients to adopt cloud technologies from cloud providers such as Amazon, Microsoft, IBM, and many more. Learn more about my experience in my ',
           pspc: 'Worked on an end-to-end testing framework called Cucumber-Puppeteer in order to test the Gcdocs mobile project. Assist in the Gcdocs mobile project that allows Gcdocs users to have a mobile version of the software using ActiveView, REST API calls, and HTML, CSS, and JavaScript. Learn more about my experience in my ',
           eccc: 'In this position, I was responsible for designing and building a database to assist ECCC in better managing, coordinating, and making linkages to issues highlighted in correspondence with the SJCSR. The front end of the database was built with VBA for a better user experience for the managers. Learn more about my experience in my ',
          },
          about: {
           title: 'About me',
-          content: 'To hone my software engineering skills, I like to participate in the capture the flags (CTF) competition and I would really like to learn more about cybersecurity. I am also a fitness enthusiast and I love to ride a motorcycle in my free time.'
+          content: 'To hone my software engineering skills, I like to participate in the capture the flags (CTF) competition and I would really like to learn more about cybersecurity. I am also a fitness enthusiast and I love to ride a motorcycle in my free time. Canadian and French nationality, I speak fluent English and French.'
          },
          resume: 'resume',
          button: {
@@ -69,7 +69,7 @@ i18n
             occupation:'INGÉNIEUR LOGICIEL',
             title:'Bonjour, je suis ',
             name: 'Valentin Magot',
-            description:'Je suis ingénieur logiciel basé à Ottawa (Canada), diplômé de l\'Université d\'Ottawa en 2021. Actuellement, Je travaille en qualité d\'Administrateur Système Salesforce pour le gouvernement fédéral (Services Partagés Canada - SPC).',
+            description:'Je suis ingénieur logiciel basé à Ottawa (Canada), diplômé de l\'Université d\'Ottawa en 2021. Actuellement, je travaille en tant que Développeur Salesforce et Analyste Informatique pour le gouvernement fédéral canadien (Services Partagés Canada - SPC).',
          },
          projects: {
           title: 'Projets',
@@ -82,14 +82,14 @@ i18n
           cbs_title:'Services Partagés Canada (SPC)',
           pspc_title:'Services Publics et Approvisionnement Canada',
           eccc_title:'Environnement et Changement Climatique Canada',
-          cbs: 'Je travail en tant qu\'Administrateur Système et Développeur Salesforce afin de configurer le Service de courtage infonuagique.Il s\'agit d\'un portail qui permet aux départements, ministères ou à tout client d\'adopter des technologies infonuagique de fournisseurs de cloud tels qu\'Amazon, Microsoft, IBM et bien d\'autres. Pour plus de détail sur mes compétences veuillez consulter mon ',
+          cbs: 'Je travail en tant qu\'Analyste Informatique et Développeur Salesforce afin de configurer le Service de courtage infonuagique.Il s\'agit d\'un portail qui permet aux départements, ministères ou à tout client d\'adopter des technologies infonuagique de fournisseurs de cloud tels qu\'Amazon, Microsoft, IBM et bien d\'autres. Pour plus de détail sur mes compétences veuillez consulter mon ',
           pspc: 'J’ai collaboré sur un cadriciel (framework) de test de bout en bout appelé Cucumber-Puppeteer afin de tester le projet mobile Gcdocs. J\'ai participé au projet mobile Gcdocs qui permet aux utilisateurs de Gcdocs d\'avoir une version mobile du logiciel en utilisant ActiveView ainsi que les appels d\'API REST, HTML, CSS et JavaScript. Pour plus de détail sur mes compétences veuillez consulter mon ',
           eccc: 'À ce poste, j\'étais responsable de la conception et développement d\'une base de données pour aider ECCC à mieux gérer, coordonner et établir des liens avec les questions mises en évidence dans la correspondance avec le CMPER. Le UI de la base de données a été construit avec VBA permettant une meilleure experience utilisateur pour les gestionnaires. Pour plus de détail sur mes compétences veuillez consulter mon ',
          },
          resume: 'CV',
          about: {
           title: 'À propos de moi',
-          content: 'Pour perfectionner mes compétences en génie logiciel, j\'aime participer au concours de capture de drapeaux (CTF) et j\'aimerais beaucoup en apprendre davantage sur la cybersécurité. Je suis aussi un passionné de fitness et j\'adore faire de la moto pendant mon temps libre.'
+          content: 'Pour perfectionner mes compétences en génie logiciel, j\'aime participer au concours de capture de drapeaux (CTF) et j\'aimerais beaucoup en apprendre davantage sur la cybersécurité. Je suis aussi un passionné de fitness et j\'adore faire de la moto pendant mon temps libre. De nationalité canadienne et française, je parle couramment l\'anglais et le français.'
          },
          button: {
           resume: 'Curriculum Vitae',

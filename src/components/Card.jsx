@@ -4,7 +4,7 @@ import React from 'react'
 import styles from '../sytles'
 
 // import resume
-import resume from '../assets/cv.pdf'
+import resume from '../assets/cv_Valentin_Magot_2023.pdf'
 
 import { useTranslation } from 'react-i18next';
 
